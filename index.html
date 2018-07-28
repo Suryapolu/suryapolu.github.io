@@ -1,9 +1,20 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Demo</title>
+    <link rel="stylesheet" type="text/css" href="one.css">
+    <script src="index.js"></script>
 </head>
 <body>
-    <h1 style="color:red">Hello ,github</h1>
+    <p>Hello Github</p>
+    <h1>Login Form</h1>
+<form method="POST" id="loginform">
+    <label>Username</label>
+    <input id="username" type="text"/><br/><br/>
+    <label>Password</label>
+
+    <input id="password" type="password"/> <br/><br/>
+    <input type="button" value="login" onclick="validate()" />
+</form>
 </body>
 </html>
